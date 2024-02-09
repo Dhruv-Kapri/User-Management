@@ -1,0 +1,46 @@
+.signinup-container {
+  display: flex;
+  height: 100vh;
+  font-family: Source Sans Pro;
+}
+
+.signinup-content {
+  flex: 1;
+  background-color: #001f3f; /* Dark Blue */
+  color: #fff; /* White text */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signinup-logo img {
+  width: 80px; /* Adjust the size as needed */
+}
+
+.signinup-text {
+  text-align: center;
+}
+
+.signinup-form {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.form-group {
+  width: 85%;
+  align-content: center;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
